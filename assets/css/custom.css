@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../assets/img/bg-tax.jpeg'); */
+    /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    /* Optional: Set a default font-family */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    /* Optional: Set the text color */
+}
+
+/* Add your custom styles here */
+.oval-container {
+    display: flex;
+    border-radius: 25px;
+    /* Adjust the border-radius for the oval shape */
+    border: 1px solid lightgray;
+    /* Add a border */
+    overflow: hidden;
+    /* Hide overflow for a clean oval shape */
+    padding-left: 10px;
+    margin-top: 70px;
+    background-color: #f8f9fa;
+}
+
+.oval-input {
+    flex: 1;
+    border: none;
+    /* Remove the border */
+    background-color: transparent;
+    /* Set the background color */
+    padding: 10px 20px;
+    /* Adjust padding for the input */
+    outline: none;
+    /* Remove the outline */
+}
+
+.oval-input:focus {
+    box-shadow: none;
+    /* Remove box-shadow on focus */
+}
+
+.input-group-text {
+    border: none;
+}
+
+.input-group-text i {
+    color: white;
+    /* Adjust the color as needed */
+}
+
+.oval-button {
+    border: none;
+    /* Remove the border */
+    border-radius: 25px;
+    /* Adjust the border-radius for the oval shape */
+    padding: 10px 20px;
+    /* Adjust padding for the button */
+    margin-top: 70px;
+}
